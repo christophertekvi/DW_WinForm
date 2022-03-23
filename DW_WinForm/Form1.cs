@@ -16,5 +16,11 @@ namespace DW_WinForm
         {
             InitializeComponent();
         }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            FormEmployee fe = new FormEmployee();
+            fe.ShowDialog();
+        }
     }
 }

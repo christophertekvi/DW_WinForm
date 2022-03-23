@@ -46,7 +46,7 @@
             // 
             // btnInvent
             // 
-            this.btnInvent.Location = new System.Drawing.Point(301, 41);
+            this.btnInvent.Location = new System.Drawing.Point(292, 41);
             this.btnInvent.Name = "btnInvent";
             this.btnInvent.Size = new System.Drawing.Size(198, 84);
             this.btnInvent.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // btnProduct
             // 
-            this.btnProduct.Location = new System.Drawing.Point(590, 41);
+            this.btnProduct.Location = new System.Drawing.Point(568, 41);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(198, 84);
             this.btnProduct.TabIndex = 2;
@@ -64,16 +64,17 @@
             // 
             // btnEmployee
             // 
-            this.btnEmployee.Location = new System.Drawing.Point(150, 178);
+            this.btnEmployee.Location = new System.Drawing.Point(141, 178);
             this.btnEmployee.Name = "btnEmployee";
             this.btnEmployee.Size = new System.Drawing.Size(198, 84);
             this.btnEmployee.TabIndex = 3;
             this.btnEmployee.Text = "EMPLOYEE";
             this.btnEmployee.UseVisualStyleBackColor = true;
+            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
             // 
             // btnPromo
             // 
-            this.btnPromo.Location = new System.Drawing.Point(452, 178);
+            this.btnPromo.Location = new System.Drawing.Point(446, 178);
             this.btnPromo.Name = "btnPromo";
             this.btnPromo.Size = new System.Drawing.Size(198, 84);
             this.btnPromo.TabIndex = 4;

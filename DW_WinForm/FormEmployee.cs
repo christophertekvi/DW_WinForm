@@ -33,7 +33,7 @@ namespace DW_WinForm
                 for (int i = 0; i < 50; i++)
                 {
                     Random random = new Random();
-                    int rdn = random.Next(0, 10);
+                    int rdmIndex = random.Next(0, 10);
 
 
                 }
