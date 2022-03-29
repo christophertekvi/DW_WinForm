@@ -35,7 +35,7 @@ namespace DW_WinForm
                     Random random = new Random();
                     int rdmIndex = random.Next(0, 10);
 
-
+                    sqlQuery = "select  ";
                 }
             }
             catch (Exception ex)
